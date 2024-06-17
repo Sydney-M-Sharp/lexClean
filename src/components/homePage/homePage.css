@@ -1,0 +1,15 @@
+img{
+    width: 400px;
+    margin: 3rem;
+}
+.FullPage{
+    display: flex;
+    flex-wrap: wrap;
+    width: inherit;
+
+}
+.TopOfPage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
