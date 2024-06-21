@@ -4,6 +4,7 @@ import { HomePage } from './homePage/HomePage.jsx'
 
 import './App.css'
 import { NavBar } from './navBar/NavBar.jsx'
+import { ProductsPage } from './productsPage/ProductsPage.jsx'
 function App() {
  
 
@@ -12,6 +13,7 @@ function App() {
     <NavBar/>
         <Routes>
                 <Route path="/" element={<HomePage />} />
+                <Route path="/products" element={<ProductsPage />} />
                 
             
         </Routes>

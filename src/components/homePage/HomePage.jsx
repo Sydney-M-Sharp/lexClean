@@ -1,14 +1,45 @@
 import "./homePage.css"
 
 export const HomePage = () => {
-
     return (
-    <div className="FullPage">
+        <div className="FullPage">
             <div className="TopOfPage">
-            <img className="circular-image1" src="src/assets/lexiCleaning.png"/> 
-                <h1>Lex Clean</h1>
-                
+                <img className="image1" src="src/assets/lexWDuster.jpg" alt="Cleaning" /> 
+                <img className="image2" src="src/assets/LexClean2024-83.jpg" alt="Cleaning" /> 
+                <img className="image3" src="src/assets/LexClean2024-63.jpg" alt="Cleaning" /> 
             </div>
-    </div>
-    )
+            
+            <div className="MiddleOfPage">
+                <section className="aboutSection">
+                    <div className="aboutTop">
+                        <img className="circleImg" src="src/assets/lexiCleaning.png" alt="About" /> 
+                        <h1>About Us</h1>
+                    </div>
+                    <hr className="line"></hr>
+                    <p className="aboutParagraph">
+                        Here is a box that holds all of the info about Lex Cleaning. I need to see how much can fit in Here.
+                        blah blah Here is a box that holds all of the info about Lex Cleaning.
+                        Here is a box that holds all of the info about Lex Cleaning.
+                    </p>
+                </section>
+
+                <section className="quoteSection"> 
+                    <h1>Get A Quote</h1>
+                    <hr className="line"></hr>
+                    <p className="contactParagraph">Quote link info</p>
+
+                    <h1>Contact Lex</h1>
+                    <hr className="line"></hr>
+                    <p className="contactParagraph">
+                        <ul>
+                            email: Email@gmail.com
+                        </ul>
+                        <ul>
+                            phone number: xxx-xxx-xxxx
+                        </ul>
+                    </p>
+                </section>
+            </div>
+        </div>
+    );
 }
