@@ -2,6 +2,7 @@
   "name": "lexclean",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://sydney-m-sharp.github.io/lexClean",
   "type": "module",
   "scripts": {
     "dev": "vite",
