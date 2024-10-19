@@ -9,7 +9,7 @@ export const NavBar = () => {
         <ul className="navbar">
             <div className="navbar-logo">
                 <img src="src/assets/lexiCleaning.png"  alt="Lex Clean Logo" className="logo" />
-                <span className="brand-name">Lex Clean</span>
+                <span className="brand-name">LEXCLEAN</span>
             </div>
             <div className="navbar-content">
                 <li className="navbar-item">
@@ -18,11 +18,14 @@ export const NavBar = () => {
                 <li className="navbar-item">
                     <Link className="navbar-link" to='/products'>Products</Link>
                 </li>
-                <li className="navbar-item">
+                {/* <li className="navbar-item">
                     <Link className="navbar-link" to='/faq'>FAQ</Link>
                 </li>
                 <li className="navbar-item">
                     <Link className="navbar-link" to='/reviews'>Reviews</Link>
+                </li> */}
+                <li className="navbar-item">
+                    <Link className="navbar-link" to='/'>Calenders</Link>
                 </li>
                 <li className="navbar-item">
                     <Link className="navbar-link" to='/about-lex'>About Lex</Link>
