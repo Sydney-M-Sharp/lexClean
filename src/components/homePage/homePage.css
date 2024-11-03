@@ -13,7 +13,7 @@
 .FullPage {
     display: flex;
     flex-direction: column;
-    width: inherit;
+    width: 100%;
 }
 
 .TopOfPage {

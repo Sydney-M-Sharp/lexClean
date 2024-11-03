@@ -13,10 +13,10 @@ export const NavBar = () => {
             </div>
             <div className="navbar-content">
                 <li className="navbar-item">
-                    <Link className="navbar-link" to='/'>Home</Link>
+                    <Link className="navbar-link" to='/lexClean/'>Home</Link>
                 </li>
                 <li className="navbar-item">
-                    <Link className="navbar-link" to='/products'>Products</Link>
+                    <Link className="navbar-link" to='/products/'>Products</Link>
                 </li>
                 {/* <li className="navbar-item">
                     <Link className="navbar-link" to='/faq'>FAQ</Link>
@@ -25,10 +25,10 @@ export const NavBar = () => {
                     <Link className="navbar-link" to='/reviews'>Reviews</Link>
                 </li> */}
                 <li className="navbar-item">
-                    <Link className="navbar-link" to='/'>Calenders</Link>
+                    <Link className="navbar-link" to='/calender/'>Calender</Link>
                 </li>
                 <li className="navbar-item">
-                    <Link className="navbar-link" to='/about-lex'>About Lex</Link>
+                    <Link className="navbar-link" to='/about-lex/'>About Lex</Link>
                 </li>
             </div>
         </ul>
