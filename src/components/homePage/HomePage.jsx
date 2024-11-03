@@ -4,7 +4,7 @@ export const HomePage = () => {
     return (
         <div className="FullPage">
             <div className="TopOfPage">
-                <img className="image1" src="/lexClean/src/assets/lexWDuster.jpg" alt="Cleaning" />
+                <img className="image1" src="assets/lexWDuster.jpg" alt="Cleaning" />
                 <img className="image2" src="assets/LexClean2024-83.jpg" alt="Cleaning" />
                 <img className="image3" src="assets/LexClean2024-63.jpg" alt="Cleaning" />
             </div>
@@ -12,7 +12,7 @@ export const HomePage = () => {
             <div className="MiddleOfPage">
                 <section className="aboutSection">
                     <div className="aboutTop">
-                        <img className="circleImg" src="src/assets/lexiCleaning.png" alt="About" />
+                        <img className="circleImg" src="assets/lexiCleaning.png" alt="About" />
                         <h1>About Us</h1>
                     </div>
                     <hr className="line"></hr>
