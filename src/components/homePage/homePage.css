@@ -1,108 +1,48 @@
-.image1, .image2, .image3 {
-    width: 400px;
-    margin: 3rem;
-    opacity: 0; /* Initially hide the images */
-     object-fit: cover; /* Ensure images cover the specified dimensions */
-}
+/* homePage.css */
 
-.image2 {
-    object-position: 88% 50%; /* Example: Adjust position more to the left */
-}
-
-/* Full page sections are stacked on top of each other */
 .FullPage {
     display: flex;
-    flex-direction: column;
-    width: 100%;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: flex-start; /* Align items at the start */
+    align-items: center; /* Center items horizontally */
+    min-height: 100vh; /* Ensure it fills the screen */
+    padding: 20px; /* Add some padding */
 }
 
 .TopOfPage {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center; /* Center images */
+    align-items: center; /* Center images vertically */
+    flex-wrap: wrap; /* Allow wrapping of images */
 }
 
-/* Animation keyframes */
-@keyframes floatIn {
-    from {
-        transform: translateX(-100%);
-        opacity: 0;
-    }
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-/* Apply animations to images with staggered delays */
-.image1 {
-    animation: floatIn 1s ease-out forwards;
-    animation-delay: 0s;
-}
-
-.image2 {
-    animation: floatIn 1s ease-out forwards;
-    animation-delay: .5s;
-}
-
-.image3 {
-    animation: floatIn 1s ease-out forwards;
-    animation-delay: 1s;
-    object-fit: cover; /* Crop the image to fit the specified dimensions */
-}
-
-.circleImg {
-    height: 150px;
-    width: 155px;
-    box-shadow: 10px 10px 10px #00000036;
-    border-radius: 50%; /* Crop the image to be a circle */
-    object-fit: cover; /* Ensure the image covers the entire circle */
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-top: .5rem;
-}
-
-/* Middle section split into two boxes */
 .MiddleOfPage {
-    display: flex;
-    justify-content: space-around;
-    padding: 2rem;
+    width: 100%;
+    max-width: 800px; /* Limit max width for readability */
+    margin: 20px 0; /* Margin for spacing */
 }
 
 .aboutSection, .quoteSection {
-    width: 45%; /* Adjust width as needed */
-    padding: 1rem;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 40px;
-    background-color: #f9f9f982;
-    color: rgb(26, 25, 25); /* Set text color to black */
-}
-.aboutTop {
-    display: flex; /* Enable flexbox layout */
-    align-items: center; /* Center items vertically */
-    
+    margin: 20px 0; /* Space between sections */
+    padding: 20px; /* Space inside sections */
+    border: 1px solid #ccc; /* Optional border */
+    border-radius: 10px; /* Optional rounded corners */
 }
 
-/* Additional styles for padding and spacing within sections */
-
-
-.aboutSection h1, .quoteSection h1 {
-    margin-bottom: 1rem;
+.line {
+    border: none;
+    height: 2px; /* Thickness of line */
+    background-color: #4CAF50; /* Color of the line */
+    margin: 10px 0; /* Space around the line */
 }
 
-.aboutSection p, .quoteSection p {
-    margin-bottom: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin: 1rem
+.circleImg {
+    border-radius: 50%; /* Makes image circular */
+    width: 100px; /* Set a size for the circle image */
+    height: 100px; /* Set a size for the circle image */
 }
 
-.contactParagraph {
-    margin: 1rem 0;
-}
-
-.line{
-    margin: 1rem
-
+.aboutParagraph, .contactParagraph {
+    text-align: left; /* Align text to the left for readability */
+    line-height: 1.6; /* Increase line spacing */
 }
