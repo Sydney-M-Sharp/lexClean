@@ -1,4 +1,4 @@
-import "./homePageSaved.css"
+import "./homePage.css"
 
 export const HomePage = () => {
     return (
@@ -13,7 +13,7 @@ export const HomePage = () => {
                 <section className="aboutSection">
                     <div className="aboutTop">
                         <img className="circleImg" src="assets/lexiCleaning.png" alt="About" />
-                        <h1>About Us</h1>
+                        <h2>About Us</h2>
                     </div>
                     <hr className="line"></hr>
                     <p className="aboutParagraph">
@@ -24,11 +24,11 @@ export const HomePage = () => {
                 </section>
 
                 <section className="quoteSection">
-                    <h1>Get A Quote</h1>
+                    <h2>Get A Quote</h2>
                     <hr className="line"></hr>
                     <p className="contactParagraph">Quote form goes here</p>
 
-                    <h1>Contact Lex</h1>
+                    <h2>Contact Lex</h2>
                     <hr className="line"></hr>
                     <p className="contactParagraph">
                         <ul>

@@ -69,6 +69,7 @@
 /* Middle section split into two boxes */
 .MiddleOfPage {
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-around;
     padding: 2rem;
 }
@@ -111,14 +112,7 @@
 
 }
 
-  
 
-  
-  .MiddleOfPage {
-    display: flex;
-    flex-direction: column; /* Stack sections on small screens */
-    padding: 2rem;
-  }
   
   .aboutSection, .quoteSection {
     flex: 1 1 45%; /* Grow and shrink to a base of 45% */
