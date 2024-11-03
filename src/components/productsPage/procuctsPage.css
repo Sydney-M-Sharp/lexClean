@@ -6,7 +6,7 @@
 }
 
 /* Full page sections are stacked on top of each other */
-.FullPage {
+/* .FullPage {
     display: flex;
     flex-direction: column;
     width: inherit;
@@ -16,6 +16,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-}
+} */
 
 
