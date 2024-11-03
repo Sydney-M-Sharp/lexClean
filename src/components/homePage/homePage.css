@@ -75,7 +75,7 @@
 }
 
 .aboutSection, .quoteSection {
-    width: 45%; /* Adjust width as needed */
+    width: calc(50% - 5rem);
     padding: 1rem;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 40px;
@@ -115,7 +115,7 @@
 
   
   .aboutSection, .quoteSection {
-    flex: 1 1 45%; /* Grow and shrink to a base of 45% */
+    
     padding: 1rem;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 40px;
