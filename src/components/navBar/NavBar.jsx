@@ -8,7 +8,7 @@ export const NavBar = () => {
     return (
         <ul className="navbar">
             <div className="navbar-logo">
-                <img src="assets/lexiCleaning.png"  alt="Lex Clean Logo" className="logo" />
+                <img src="assets/originalLogo.png"  alt="LEXCLEAN Logo" className="logo" />
                 <span className="brand-name">LEXCLEAN</span>
             </div>
             <div className="navbar-content">
